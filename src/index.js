@@ -11,7 +11,6 @@ function displayJoke(response) {
 
 function generateJoke(event) {
   event.preventDefault();
-  let apiKey = "2046c535afeb092fo82f1d306d8a2b2t";
   let context =
     "Your are a funny AI Assistant that tells short and sweet jokes. The joke must be provided in HTML format. Example: <p>this is a joke</p>";
   let prompt = "Generate a short and unique joke a French people. ";
